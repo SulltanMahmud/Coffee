@@ -1,0 +1,70 @@
+.video-section {
+  padding-bottom: 100px;
+  padding-top: 40px;
+  text-align: left;
+  .video-left {
+    background: url(https://preview.colorlib.com/theme/coffee/img/video-bg.jpg)
+      no-repeat center;
+    background-size: cover;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    background-position-x:50% ;
+    background-position-y:50% ;
+    width: 45%;
+
+    .overlay {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      border-radius: 10px;
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .play-btn {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 900;
+      img {
+        vertical-align: middle;
+        border-style: none;
+      }
+    }
+  }
+  .video-right {
+    padding-left: 114px;
+    padding-right: 15px;
+    h6 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #b68834;
+      font-size: 12px;
+      font-weight: 300;
+    }
+    h1 {
+      padding-bottom: 20px;
+      color: #222222;
+      line-height: 1.2em !important;
+      margin-bottom: 0;
+      margin-top: 0;
+      font-weight: 600;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 300;
+      margin-bottom: 16px;
+      color: rgb(119, 119, 119);
+      font-weight: 300;
+      span {
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 19px;
+      }
+    }
+  }
+}

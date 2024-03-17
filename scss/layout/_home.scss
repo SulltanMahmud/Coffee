@@ -1,0 +1,45 @@
+.banner-area {
+  background: url("/assets/asset\ 12.jpeg");
+  background-size: cover;
+
+  .screen {
+    height: 730px;
+
+    .banner-content {
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px ;
+      margin-top: 130px;
+      h6 {
+        font-size: 14px;
+        line-height: 19.2px;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-weight: 600;
+      }
+      h1 {
+        color: #fff;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 1.2em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .btn {
+        background: #fff;
+        border: 1px solid transparent;
+        color: #222;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 50px;
+        border: 1px solid $white-colour;
+
+        &:hover {
+          background: transparent;
+          color: $white-colour;
+        }
+      }
+    }
+  }
+}

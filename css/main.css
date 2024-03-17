@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.custom-container {
+  margin-left: 189.6px;
+  margin-right: 189.6px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  background: rgba(20, 2, 0, 0.8);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 100%;
+  position: fixed;
+}
+
+#header .header-top .text-item ul {
+  margin-bottom: 0;
+}
+#header .header-top .text-item ul li {
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.75px;
+  color: #fff;
+}
+#header .header-top .text-item ul li a {
+  color: #fff;
+}
+#header .navbar {
+  padding: 0px;
+}
+#header .navbar .nav-items ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+}
+#header .navbar .nav-items ul li {
+  margin-left: 10px;
+}
+#header .navbar .nav-items ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 8px 0px 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.banner-area {
+  background: url("/assets/asset 12.jpeg");
+  background-size: cover;
+}
+.banner-area .screen {
+  height: 730px;
+}
+.banner-area .screen .banner-content {
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 130px;
+}
+.banner-area .screen .banner-content h6 {
+  font-size: 14px;
+  line-height: 19.2px;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+.banner-area .screen .banner-content h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.banner-area .screen .banner-content .btn {
+  background: #fff;
+  border: 1px solid transparent;
+  color: #222;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+}
+.banner-area .screen .banner-content .btn:hover {
+  background: transparent;
+  color: #fff;
+}
+
+.video-section {
+  padding-bottom: 100px;
+  padding-top: 40px;
+  text-align: left;
+}
+.video-section .video-left {
+  background: url(https://preview.colorlib.com/theme/coffee/img/video-bg.jpg) no-repeat center;
+  background-size: cover;
+  height: 350px;
+  border-radius: 10px;
+  position: relative;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  width: 45%;
+}
+.video-section .video-left .overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.video-section .video-left .play-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 900;
+}
+.video-section .video-left .play-btn img {
+  vertical-align: middle;
+  border-style: none;
+}
+.video-section .video-right {
+  padding-left: 114px;
+  padding-right: 15px;
+}
+.video-section .video-right h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #b68834;
+  font-size: 12px;
+  font-weight: 300;
+}
+.video-section .video-right h1 {
+  padding-bottom: 20px;
+  color: #222222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+.video-section .video-right p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 16px;
+  color: rgb(119, 119, 119);
+  font-weight: 300;
+}
+.video-section .video-right p span {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 19px;
+}
