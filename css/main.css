@@ -180,3 +180,91 @@ a {
   font-weight: 300;
   margin-bottom: 19px;
 }
+
+.menu-area {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: url(/assets/asset\ 14.jpeg);
+}
+.menu-area .menu-content {
+  padding-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.menu-area .menu-content .title {
+  text-align: center;
+}
+.menu-area .menu-content .title h1 {
+  color: #222222;
+  line-height: 43.2px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.menu-area .menu-content .title p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(119, 119, 119);
+}
+.menu-area .single-menu {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(182, 136, 52, 0.2);
+          box-shadow: 0px 10px 30px 0px rgba(182, 136, 52, 0.2);
+  border-radius: 10px;
+  padding: 30px 30px;
+  margin-bottom: 30px;
+}
+.menu-area .single-menu .title-section {
+  padding-bottom: 20px;
+}
+.menu-area .single-menu .title-section h4 {
+  font-size: 18px;
+  color: #222222;
+  font-weight: 600;
+  line-height: 21.6px;
+}
+.menu-area .single-menu .title-section p {
+  color: rgb(182, 136, 52);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.75px;
+  text-align: left;
+}
+.menu-area .single-menu p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.75px;
+  text-align: left;
+}
+
+.gallery-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.gallery-section .menu-content {
+  padding-bottom: 60px;
+}
+.gallery-section .menu-content h1 {
+  color: rgb(34, 34, 34);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.2px;
+  margin-bottom: 10px;
+}
+.gallery-section .menu-content p {
+  color: rgb(34, 34, 34);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.75px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.gallery-section .gallery-img img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.gallery-section .gallery-img-right img {
+  width: 100%;
+  margin-bottom: 30px;
+}
