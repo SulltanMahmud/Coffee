@@ -1,0 +1,91 @@
+.footer-section {
+  background: url(/assets/asset\ 15.jpeg) center;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  .footer-left {
+    h6 {
+      color: #fff;
+      margin-bottom: 25px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    p {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22.75px;
+      margin-bottom: 16px;
+      text-align: left;
+    }
+
+    .footer-text {
+      padding-top: 20px;
+      margin-bottom: 16px;
+      font-size: 14px;
+      font-weight: 300;
+
+      .golden-text {
+        color: rgb(182, 136, 52);
+      }
+    }
+  }
+
+  .footer-middle {
+    color: #fff;
+    h6 {
+      color: #fff;
+      margin-bottom: 25px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    p {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22.75px;
+      margin-bottom: 16px;
+      text-align: left;
+    }
+
+    .input-group {
+        width: 80%;
+      .form-control {
+        border-radius: 0px;
+        border: none;
+      }
+    }
+    .input-group-text {
+      background-color: rgb(182, 136, 52);
+      color: #fff;
+    }
+  }
+  .footer-right {
+    h6 {
+      color: #fff;
+      margin-bottom: 25px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    p {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22.75px;
+      margin-bottom: 16px;
+      text-align: left;
+    }
+
+    .social-icon {
+      a {
+        padding-right: 25px;
+        color: #fff;
+
+        &:hover {
+          color: rgb(182, 136, 52);
+        }
+      }
+    }
+  }
+}

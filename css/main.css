@@ -263,8 +263,216 @@ a {
 .gallery-section .gallery-img img {
   width: 100%;
   margin-bottom: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .gallery-section .gallery-img-right img {
   width: 100%;
   margin-bottom: 30px;
+}
+
+.review-section {
+  background-color: #b68834;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.review-section .menu-content {
+  padding-bottom: 60px;
+}
+.review-section .menu-content h1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.2px;
+  margin-bottom: 10px;
+}
+.review-section .menu-content p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.75px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.review-section .review-unit .title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.review-section .review-unit .title h4 {
+  font-size: 18px;
+  color: #fff;
+  line-height: 21.6px;
+}
+.review-section .review-unit .title .star {
+  margin-left: 20px;
+}
+.review-section .review-unit .title .star span .fa-solid {
+  font-size: 14px;
+  color: #fff;
+}
+.review-section .review-unit .title .star span .fa-solid.rating {
+  color: orange;
+}
+.review-section .review-unit p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.75px;
+  margin-bottom: 16px;
+  text-align: left;
+  color: #fff;
+}
+
+.blog-area {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.blog-area .menu-content {
+  padding-bottom: 60px;
+}
+.blog-area .menu-content h1 {
+  color: rgb(34, 34, 34);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.2px;
+  margin-bottom: 10px;
+}
+.blog-area .menu-content p {
+  color: rgb(34, 34, 34);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.75px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.blog-area .blog-unit img {
+  border-radius: 10px;
+  vertical-align: middle;
+}
+.blog-area .blog-unit ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.blog-area .blog-unit ul li {
+  display: inline-block;
+  font-size: 12px;
+  margin: 20px 0px;
+  display: inline-block;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  padding: 4px 20px;
+  cursor: pointer;
+}
+.blog-area .blog-unit ul li a {
+  text-decoration: none;
+  color: #222;
+}
+.blog-area .blog-unit ul li a:hover {
+  color: #fff;
+}
+.blog-area .blog-unit ul li:hover {
+  background-color: #b68834;
+  color: #fff;
+}
+.blog-area .blog-unit .heading {
+  text-decoration: none;
+}
+.blog-area .blog-unit .heading h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: rgb(34, 34, 34);
+}
+.blog-area .blog-unit p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.75px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.blog-area .blog-unit .date {
+  color: #222;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-section {
+  background: url(/assets/asset\ 15.jpeg) center;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.footer-section .footer-left h6 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer-section .footer-left p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.75px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.footer-section .footer-left .footer-text {
+  padding-top: 20px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.footer-section .footer-left .footer-text .golden-text {
+  color: rgb(182, 136, 52);
+}
+.footer-section .footer-middle {
+  color: #fff;
+}
+.footer-section .footer-middle h6 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer-section .footer-middle p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.75px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.footer-section .footer-middle .input-group {
+  width: 80%;
+}
+.footer-section .footer-middle .input-group .form-control {
+  border-radius: 0px;
+  border: none;
+}
+.footer-section .footer-middle .input-group-text {
+  background-color: rgb(182, 136, 52);
+  color: #fff;
+}
+.footer-section .footer-right h6 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer-section .footer-right p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.75px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.footer-section .footer-right .social-icon a {
+  padding-right: 25px;
+  color: #fff;
+}
+.footer-section .footer-right .social-icon a:hover {
+  color: rgb(182, 136, 52);
 }
