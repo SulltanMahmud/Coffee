@@ -52,11 +52,8 @@ a {
 #header .navbar {
   padding: 0px;
 }
-#header .navbar button {
-  background-color: transparent;
-}
-#header .navbar button span {
-  background-color: #fff;
+#header .navbar .navbar-toggler {
+  border: none;
 }
 #header .navbar .nav-items ul {
   display: -webkit-box;
@@ -551,4 +548,36 @@ a {
 }
 .footer-section .footer-right .social-icon a:hover {
   color: rgb(182, 136, 52);
+}
+
+.offcanvas.cap {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.offcanvas .offcanvas-header {
+  padding-bottom: 0px;
+}
+.offcanvas .offcanvas-header .btn-close {
+  position: absolute;
+  top: 23px;
+  left: 330px;
+  font-size: 20px;
+}
+.offcanvas .offcanvas-body {
+  padding-top: 0px;
+}
+.offcanvas .offcanvas-body ul {
+  padding-left: 0px;
+}
+.offcanvas .offcanvas-body ul li {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.offcanvas .offcanvas-body ul li a {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 22.75px;
+  text-decoration: none;
+  color: #fff;
 }

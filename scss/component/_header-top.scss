@@ -26,14 +26,10 @@
 
   .navbar {
     padding: 0px;
-
-      button{
-        background-color:transparent;
-
-        span{
-           background-color: #fff;
-        }
-      }
+    .navbar-toggler{
+      border: none;
+    }
+     
     .nav-items {
       ul {
         display: flex;

@@ -54,20 +54,15 @@
 
               <!-- Mobile nav section -->
               <button
-                class="navbar-toggler"
+                class="navbar-toggler navbar-dark d-block d-lg-none"
                 type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarText"
-                aria-controls="navbarText"
-                aria-expanded="false"
+                data-bs-toggle="offcanvas"
+                data-bs-target=" #offcanvasExample"
+                aria-controls=" offcanvasExample"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon" style="color: azure"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <!-- NAV TABS SECTION  -->
-                
-              </div>
 
               <div class="nav-items d-none d-lg-block">
                 <ul>
@@ -82,6 +77,34 @@
             </nav>
           </div>
         </header>
+      </div>
+    </div>
+
+    <!-- tab section -->
+    <div
+      class="offcanvas offcanvas-start cap"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+      style="width: 70%"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button   "
+          class="btn-close btn-close-white"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">COFFEE</a></li>
+          <li><a href="">REVIEW</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">PAGES</a></li>
+        </ul>
       </div>
     </div>
 
@@ -114,7 +137,7 @@
             class="col-lg-6 col-12 justify-content-center align-items-center video-left"
           >
             <div class="overlay overlay-bg"></div>
-            <a
+            <a data-fancybox
               class="play-btn"
               href="https://www.youtube.com/watch?v=ARA0AxrnHdM"
             >
@@ -469,7 +492,11 @@
       </div>
     </section>
 
-    <!-- Fancy box js -->
+
+
+    <!-- fancy box video  -->
+    <script src="./js/fancy-box-video.js"></script>
+    <!-- Fancy box js for photo-->
     <script src="./js/fancybox.js"></script>
 
     <!-- Fancybox cdn -->

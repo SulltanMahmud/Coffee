@@ -1,0 +1,36 @@
+.offcanvas {
+     &.cap{
+        background-color: rgba(0,0,0,0.8);
+     }
+    .offcanvas-header{
+        padding-bottom: 0px;
+
+        .btn-close{
+            position: absolute;
+            top: 23px;
+            left: 330px;
+            font-size: 20px;
+             
+        }
+    }
+  .offcanvas-body {
+    padding-top: 0px;
+    ul {
+      padding-left: 0px;
+
+      li {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        a {
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 22.75px;
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
