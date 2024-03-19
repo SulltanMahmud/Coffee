@@ -12,6 +12,9 @@
     background-position-x:50% ;
     background-position-y:50% ;
     width: 45%;
+    @include sm{
+      width: 100%;
+    }
 
     .overlay {
       position: absolute;
@@ -38,6 +41,11 @@
   .video-right {
     padding-left: 114px;
     padding-right: 15px;
+
+    @include sm{
+      margin-top: 50px;
+      padding-left: 10%;
+    }
     h6 {
       text-transform: uppercase;
       letter-spacing: 2px;
