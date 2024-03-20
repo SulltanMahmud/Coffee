@@ -34,37 +34,45 @@ a {
   padding-bottom: 14px;
   width: 100%;
   position: fixed;
+  z-index: 100;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
 }
-
-#header .header-top .text-item ul {
+.main-header .header-top .text-item ul {
   margin-bottom: 0;
 }
-#header .header-top .text-item ul li {
+.main-header .header-top .text-item ul li {
   margin-right: 20px;
   font-size: 14px;
   font-weight: 300;
   line-height: 22.75px;
   color: #fff;
 }
-#header .header-top .text-item ul li a {
+.main-header .header-top .text-item ul li a {
   color: #fff;
 }
-#header .navbar {
+.main-header .navbar {
   padding: 0px;
 }
-#header .navbar .navbar-toggler {
+.main-header .navbar .navbar-toggler {
   border: none;
+  position: relative;
+  z-index: 1046;
 }
-#header .navbar .nav-items ul {
+.main-header .navbar .navbar-toggler .hamburger {
+  position: relative;
+  z-index: 1046;
+}
+.main-header .navbar .nav-items ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 0;
 }
-#header .navbar .nav-items ul li {
+.main-header .navbar .nav-items ul li {
   margin-left: 10px;
 }
-#header .navbar .nav-items ul li a {
+.main-header .navbar .nav-items ul li a {
   text-decoration: none;
   color: #fff;
   padding: 0 8px 0px 8px;
@@ -75,11 +83,38 @@ a {
   text-transform: uppercase;
   outline: none;
 }
+.main-header .navbar .nav-items ul li .pages-nav:hover .page-content {
+  visibility: visible;
+}
+.main-header .navbar .nav-items ul li .pages-nav .page-content {
+  visibility: hidden;
+  background-color: #fff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 35px;
+  width: 200px;
+  height: 120px;
+}
+.main-header .navbar .nav-items ul li .pages-nav .page-content a {
+  color: black;
+  padding: 15px;
+}
+.main-header .navbar .nav-items ul li .pages-nav .page-content a:hover {
+  color: goldenrod;
+}
 
 .header-colour {
   background-color: rgba(20, 2, 0, 0.8);
-  -webkit-transition: background-color 0.5s ease;
-  transition: background-color 0.5s ease;
+}
+
+.offcanvas-backdrop {
+  z-index: 99 !important;
 }
 
 .banner-area {
@@ -116,7 +151,6 @@ a {
 .banner-area .screen .banner-content h1 {
   color: #fff;
   font-size: 60px;
-  font-size: 30px;
   font-weight: 600;
   line-height: 1.2em;
   margin-top: 20px;
@@ -181,7 +215,6 @@ a {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  z-index: 900;
 }
 .video-section .video-left .play-btn img {
   vertical-align: middle;
@@ -580,4 +613,94 @@ a {
   line-height: 22.75px;
   text-decoration: none;
   color: #fff;
+}
+
+#accordionFlushExamplenew .accordion-button {
+  color: white;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 22.75px;
+  text-decoration: none;
+  color: #fff;
+}
+#accordionFlushExamplenew .accordion-item {
+  background-color: transparent;
+  color: #fff;
+}
+#accordionFlushExamplenew .propert {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 22.75px;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#counter-section {
+  margin-top: 100px;
+}
+#counter-section .single-counter .counter {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 72px;
+  text-align: left;
+}
+@media only screen and (max-width: 576px) {
+  #counter-section .single-counter .counter {
+    text-align: center;
+  }
+}
+#counter-section .single-counter p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22.75px;
+}
+@media only screen and (max-width: 576px) {
+  #counter-section .single-counter p {
+    text-align: center;
+  }
+}
+
+.one {
+  width: 6.866%;
+}
+
+/* COLUMNS */
+.hamburger {
+  position: relative;
+  z-index: 1041;
+}
+
+/* CLEARFIX */
+/* ALL */
+.hamburger .line {
+  width: 30px;
+  height: 3px;
+  background-color: #ecf0f1;
+  display: block;
+  margin: 8px auto;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+/* ONE */
+#hamburger-1.is-active .line:nth-child(2) {
+  opacity: 0;
+}
+
+#hamburger-1.is-active .line:nth-child(1) {
+  -webkit-transform: translateY(13px) rotate(45deg);
+          transform: translateY(13px) rotate(45deg);
+}
+
+#hamburger-1.is-active .line:nth-child(3) {
+  -webkit-transform: translateY(-9px) rotate(-45deg);
+          transform: translateY(-9px) rotate(-45deg);
 }

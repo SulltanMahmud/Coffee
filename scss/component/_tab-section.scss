@@ -1,20 +1,20 @@
 .offcanvas {
-     &.cap{
-        background-color: rgba(0,0,0,0.8);
-     }
-    .offcanvas-header{
-        padding-bottom: 0px;
+  &.cap {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .offcanvas-header {
+    padding-bottom: 0px;
 
-        .btn-close{
-            position: absolute;
-            top: 23px;
-            left: 330px;
-            font-size: 20px;
-             
-        }
+    .btn-close {
+      position: absolute;
+      top: 23px;
+      left: 330px;
+      font-size: 20px;
     }
+  }
   .offcanvas-body {
     padding-top: 0px;
+
     ul {
       padding-left: 0px;
 
@@ -32,5 +32,32 @@
         }
       }
     }
+  }
+}
+
+#accordionFlushExamplenew {
+  .accordion-button {
+    color: white;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22.75px;
+    text-decoration: none;
+    color: #fff;
+  }
+  .accordion-item {
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .propert {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22.75px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
   }
 }

@@ -1,20 +1,19 @@
 .banner-area {
   background: url("/assets/asset\ 12.jpeg");
   background-size: cover;
-  @include sm{
+  @include sm {
     object-fit: cover;
   }
 
   .screen {
     height: 730px;
-    
 
     .banner-content {
       min-height: 1px;
       padding-right: 15px;
       padding-left: 15px;
       margin-top: 130px;
-      @include sm{
+      @include sm {
         margin-top: 180px;
       }
 
@@ -24,19 +23,17 @@
         margin-bottom: 0;
         margin-top: 0;
         font-weight: 600;
-
-         
       }
       h1 {
         color: #fff;
         font-size: 60px;
-        font-size: 30px;
+
         font-weight: 600;
         line-height: 1.2em;
         margin-top: 20px;
         margin-bottom: 20px;
-        
-        @include sm{
+
+        @include sm {
           font-size: 40px;
           line-height: 48px;
           text-size-adjust: 100%;
