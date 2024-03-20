@@ -2,16 +2,10 @@
   width: 6.866%;
 }
 
-/* COLUMNS */
-
 .hamburger {
   position: relative;
   z-index: 1041;
 }
-
-/* CLEARFIX */
-
-/* ALL */
 
 .hamburger .line {
   width: 30px;
@@ -19,21 +13,14 @@
   background-color: #ecf0f1;
   display: block;
   margin: 8px auto;
-  // -webkit-transition: all 0.3s ease-in-out;
-  // -o-transition: all 0.3s ease-in-out;
-  // transition: all 0.3s ease-in-out;
 }
-
 .hamburger:hover {
   cursor: pointer;
 }
 
-/* ONE */
-
 #hamburger-1.is-active .line:nth-child(2) {
   opacity: 0;
 }
-
 
 #hamburger-1.is-active .line:nth-child(1) {
   transform: translateY(13px) rotate(45deg);

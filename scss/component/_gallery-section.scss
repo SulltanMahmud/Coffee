@@ -28,6 +28,10 @@
       margin-bottom: 30px;
       object-fit: cover;
     }
+
+    @include sm{
+      width: 100%;
+    }
   }
 
   .gallery-img-right {
